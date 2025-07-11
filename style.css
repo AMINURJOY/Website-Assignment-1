@@ -52,7 +52,7 @@ body {
 .navbar-section {
     background-color: #f8f8f8; 
     padding: 20px 0;
-    /* IMPORTANT: Background Image for Navbar - You will insert the URL here */
+    
     background-image: url(Assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -75,7 +75,7 @@ body {
 .banner-section {
     padding: 100px 0; 
     text-align: center;
-    /* IMPORTANT: Background Image for Banner - You will insert the URL here */
+    
     background-image: url('PLACEHOLDER_BANNER_BACKGROUND_IMAGE_URL'); 
     background-size: cover;
     background-position: center;
@@ -104,7 +104,7 @@ body {
 }
 
 .action-section .action-content h2 {
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .action-section .action-content p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     margin-bottom: 30px;
     color: #555;
@@ -133,63 +133,58 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
 }
 
-
-
-/* page 3 */
-/* 4. Productive Users Section */
+/* Productive Users Section */
 .productive-users-section {
     padding: 20px 0; 
 }
 
 
 .productive-users-section .container.bordered-section {
-    background-color: transparent; /* No background on this wrapper */
-    border-radius: 0; /* No border-radius on this wrapper */
-    padding: 0 20px; /* Only horizontal padding for container content */
-    box-shadow: none; /* No shadow on this wrapper */
+    background-color: transparent; 
+    border-radius: 0; 
+    padding: 0 20px; 
+    box-shadow: none; 
 }
 
-/* Style for the H2 when it's inside the .stats-container */
+
 .productive-users-section .stats-container h2 {
     font-size: 25px;
     font-weight: 900;
-    margin-bottom: 0px; /* Space between the title and the stats items */
+    margin-bottom: 0px; 
     text-align: center; 
-    /* Ensure title is centered */
-    color: #222121; /* Consistent text color */
-    width: 100%; /* Ensures the H2 takes full width within the flex column */
+    color: #222121; 
+    width: 100%; 
 }
 
 .productive-users-section .stats-container {
     margin: 0px 250px 0px 150px;
     display: flex;
-    flex-direction: column; /* THIS IS KEY: Stacks children (H2 and stats-items-wrapper) vertically */
-    align-items: center; /* Centers the content horizontally within this column layout */
-    justify-content: center; /* Vertically centers if there's extra space */
-    flex-wrap: wrap; /* Allows items to wrap for responsiveness (though primarily for inner flex) */
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
 
-    /* Unified styling for the entire block (H2 + stats) */
-    background-color: rgb(216, 224, 241); /* Makes the entire block white */
-    border-radius: 24px; /* Applies corner radius to the entire white block */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05); /* Applies shadow to the entire white block */
-    padding: 30px; /* Internal padding around all content inside the white block */
+    
+    background-color: rgb(216, 224, 241); 
+    border-radius: 24px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05); 
+    padding: 30px; 
 }
 
-/* NEW RULE for the wrapper around the three stat-items */
+
 .productive-users-section .stats-items-wrapper {
     display: flex;
-    /* REMOVED: gap; */ /* Ensures no gap between the three stat-items */
-    justify-content: center; /* Centers the group of three stat-items if they don't fill 100% */
-    width: 100%; /* Ensures this wrapper takes the full width available within stats-container */
-     /* Allows the items to wrap if screen size decreases */
+    
+    justify-content: center; 
+    width: 100%; 
+     
 }
 
 .productive-users-section .stat-item {
-    /* Each item takes exactly one-third of the container's width,
-       with no gaps between them. */
+    
     flex-basis: 33.333%;
-    padding: 20px; /* Padding within each individual stat item */
-    text-align: center; /* Centers content within each stat item */
+    padding: 20px; 
+    text-align: center; 
 }
 
 .productive-users-section .stat-item h3 {
@@ -204,11 +199,7 @@ body {
 }
 
 
-
-
-/* page -4 */
-
-/* 7. Users’ Feedback Section (Challenge) */
+/* Users’ Feedback Section  */
 .feedback-section {
     padding: 80px 0;
 }
@@ -223,7 +214,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 10px;
-   /* Added flex-wrap for responsiveness */
+   /*  flex-wrap for responsiveness */
 }
 
 .feedback-section .review-card {
@@ -237,15 +228,14 @@ body {
 
 .feedback-section .review-card .stars {
     margin-bottom: 15px;
-    display: flex; /* To display star images side-by-side */
-    gap: 2px; /* Small gap between stars */
-    justify-content: flex-start; /* Align stars to the left */
+    display: flex; 
+    justify-content: flex-start; 
 }
 
 .feedback-section .review-card .stars img {
-    width: 20px; /* Adjust size of your star icon image */
-    height: 20px; /* Ensure aspect ratio is maintained */
-    vertical-align: middle; /* Align stars nicely */
+    width: 20px; 
+    height: 20px; 
+    vertical-align: middle; 
 }
 
 
@@ -288,28 +278,28 @@ body {
 }
 
 /* Ready to focus better */
-/* 5. Let’s Get In Touch Section */
+/*  Let’s Get In Touch Section */
 
 
 .focus-better-section {
-    /* Padding for the overall section container */
-    padding: 150px 0 50px 0; /* Adjust to match the 151/149px shown in image_89fe82.png */
-    display: flex; /* Use flexbox to easily center the content wrapper */
-    justify-content: center; /* Horizontally center the focus-content-wrapper */
-    align-items: center; /* Vertically center the focus-content-wrapper */
+    /* Padding   section container */
+    padding: 150px 0 50px 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-/* NEW RULE: Styles for the white combined content box */
+/* Styles for the white combined content box */
 .focus-better-section .focus-content-wrapper {
-    background-color: white; /* White background for the entire box */
-    padding: 60px; /* Internal padding around all content inside the white box */
-    border-radius: 15px; /* Rounded corners for the white box */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Shadow for the white box */
-    max-width: 1140px; /* Max width for the content box, as indicated in your images */
-    width: 100%; /* Ensures it's responsive and takes full width up to max-width */
-    box-sizing: border-box; /* Include padding in width calculation */
+    background-color: white; 
+    padding: 60px; 
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    max-width: 1140px;
+    width: 100%; 
+    box-sizing: border-box;
     text-align: center;
-    margin-bottom: 0px; /* Ensures content inside is centered as per design */
+    margin-bottom: 0px; 
 }
 
 .focus-better-section h2 {
@@ -324,13 +314,13 @@ body {
     margin-bottom: 40px;
 }
 
-/* Ensure the button is styled correctly */
+/* button is styled  */
 .focus-better-section .btn-primary {
-    margin-bottom: 50px; /* Add space below the button before the image */
+    margin-bottom: 50px; 
 }
 
 .focus-better-section .focus-image {
-    /* margin-top is now handled by margin-bottom of the button, or by padding of wrapper */
+    
     text-align: center;
 }
 
@@ -344,36 +334,36 @@ body {
 
 
 
-/* 5. Let’s Get In Touch Section */
-/* 5. Let’s Get In Touch Section */
+
+/*Let’s Get In Touch Section */
 .contact-section {
-    /* Keep padding for the overall section to provide space above/below the combined box */
-    padding: 50px 0 150px 0; /* As per your initial image, 150px top/bottom padding */
+   
+    padding: 50px 0 150px 0; 
     display: flex;
-    justify-content: center; /* Center the entire contact block horizontally */
-    align-items: center; /* Vertically center the block if the section has more height */
+    justify-content: center; 
+    align-items: center; 
 }
 
-/* NEW RULE: Styles for the combined content box */
+/* Styles for the combined content box */
 .contact-section .contact-content-wrapper {
     display: flex;
-    align-items: center; /* Align content (h2 and form) vertically in the center */
-    justify-content: space-between; /* Distribute space between left and right parts */
-    gap: 80px; /* Space between the left text and the right form, as in your first image */
-    background-color: white; /* Apply background to the entire combined block */
-    padding: 60px; /* Padding inside the combined block, around the content */
-                  /* Adjust this padding to give enough space from the edges */
-    border-radius: 15px; /* Apply border-radius to the entire combined block */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Apply shadow to the entire combined block */
-    max-width: 1140px; /* Set max-width for the entire combined box, as suggested by your images */
-    width: 100%; /* Ensure it's responsive */
-    box-sizing: border-box; /* Include padding in width calculation */
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 80px; 
+    background-color: white; 
+    padding: 60px; 
+                  
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    max-width: 1140px; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 .contact-section .contact-left {
-    flex: 1; /* Allow it to grow */
-    max-width: 45%; /* Adjust as needed for the text width */
-    text-align: left; /* Ensure the text is left-aligned */
+    flex: 1; 
+    max-width: 45%; 
+    text-align: left; 
 }
 
 .contact-section .contact-left h2 {
@@ -381,16 +371,16 @@ body {
     font-weight: 700;
     color: #333;
     line-height: 1.2;
-    margin-bottom: 0; /* Remove default margin as it's the only element here */
+    margin-bottom: 0; 
 }
 
 .contact-section .contact-right {
-    flex: 1; /* Allow it to grow */
-    max-width: 55%; /* Adjust as needed for the form width */
-    background-color: transparent; /* Form background is now transparent, as it's part of the main white box */
-    padding: 0; /* Remove individual padding, it's handled by the wrapper */
-    border-radius: 0; /* Remove individual border-radius */
-    box-shadow: none; /* Remove individual box-shadow */
+    flex: 1; 
+    max-width: 55%; 
+    background-color: transparent; 
+    padding: 0; 
+    border-radius: 0; 
+    box-shadow: none; 
 }
 
 .contact-section .contact-right label {
@@ -404,13 +394,13 @@ body {
 .contact-section .contact-right input[type="email"],
 .contact-section .contact-right input[type="text"],
 .contact-section .contact-right textarea {
-    width: 100%; /* Make inputs full width of their parent */
+    width: 100%; 
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
-    box-sizing: border-box; /* Crucial for width: 100% with padding */
+    box-sizing: border-box; 
 }
 
 .contact-section .contact-right textarea {
@@ -418,7 +408,7 @@ body {
 }
 
 .contact-section .contact-right .btn-primary {
-    width: 100%; /* Make button full width within the form */
+    width: 100%; 
     margin-top: 10px;
 }
 
@@ -426,7 +416,7 @@ body {
 
 /* 6. Footer Section */
 .footer-section {
-    background-color: #f8f8f8; /* Same as navbar for cohesion */
+    background-color: #f8f8f8; 
     padding: 80px 0;
 }
 
@@ -440,7 +430,7 @@ body {
 .footer-section .footer-subtitle {
     font-size: 16px;
     color: #666;
-    max-width: 700px; /* Constrain width for readability */
+    max-width: 700px; 
     margin: 0 auto 30px auto;
     line-height: 1.6;
 }
